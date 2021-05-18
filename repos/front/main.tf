@@ -9,7 +9,7 @@ terraform {
 
   backend "gcs" {
     bucket = "github-infra-cfac892d440aa7cb"
-    prefix = "repos-admin"
+    prefix = "repos-front"
   }
 
   required_providers {
