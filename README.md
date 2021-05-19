@@ -28,12 +28,6 @@ code .
 4. Click on Generate token button.
 5. Copy the generated token and keep it in a safe place.
 
-## Restrict repository creation
-
-1. Open `Member privileges` tab under organization settings window.
-2. Uncheck `Private` and `Public` for `Repository creation` section.
-3. Click on Save button.
-
 ## Set up environment variables
 
 - Set your own GITHUB_TOKEN, GITHUB_ORG and BILLING_ACCOUNT as environment variables:
@@ -43,6 +37,12 @@ export BILLING_ACCOUNT=BILLING_ACCOUNT
 export GITHUB_TOKEN=GITHUB_TOKEN
 export GITHUB_ORG=GITHUB_ORG
 ```
+
+## Restrict repository creation
+
+1. Open `Member privileges` tab under organization settings window.
+2. Uncheck `Private` and `Public` for `Repository creation` section.
+3. Click on Save button.
 
 ## Create GCP project and bucket
 

@@ -5,10 +5,10 @@ provider "google" {
 terraform {
   required_version = "0.15.3"
 
-  # backend "gcs" {
-  #   bucket = "github-8901f80a8aa6da3e"
-  #   prefix = "infra"
-  # }
+  backend "gcs" {
+    bucket = "github-de041bbb3c8f6f67"
+    prefix = "infra"
+  }
 
   required_providers {
     google = {
